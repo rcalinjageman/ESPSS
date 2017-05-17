@@ -1,0 +1,19 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Jon Peck (SPSS Inc.) -->
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension-1.0.xsd" Name="ETTEST" Language="Python">
+	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="GROUPS" ParameterType="VariableNameList"/>
+	</Subcommand>
+	<Subcommand Name="GROUP" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="GONE" ParameterType="Number"/>
+		<Parameter Name="GTWO" ParameterType="Number"/>
+	</Subcommand>
+	<Subcommand Name="WITH" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="DVLIST" ParameterType="VariableNameList"/>
+	</Subcommand>
+	<Subcommand Name="OPTIONS" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="MISSING" ParameterType="Keyword"/>
+			<EnumValue Name="ANALYSIS"/>
+			<EnumValue Name="LISTWISE"/>
+		<Parameter Name="CI" ParameterType="Number"/>
+	</Subcommand>
+</Command>
