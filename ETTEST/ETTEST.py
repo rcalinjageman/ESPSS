@@ -252,7 +252,7 @@ def display(resultlist):
             mycells = [[myresult.m1, myresult.m1_moe, m1ci, myresult.n1, myresult.s1],
                      [myresult.m2, myresult.m2_moe, m2ci, myresult.n2, myresult.s2],
                      [myresult.mdiff, myresult.eq_mdiff_moe, mci, "-", "-"],
-                     [myresult.d, "-", dci, myresult.eq_mdiff_sed, myresult.eq_mdiff_tcrit]
+                     [myresult.d, "-", dci, "-", "-"]
                      ]
             mycaption = "Equal variance assumed because group standard deviations are similar (within a factor of 2 of each other)."
 
@@ -271,7 +271,7 @@ def display(resultlist):
             necells = [[myresult.m1, myresult.m1_moe, m1ci, myresult.n1, myresult.s1],
                      [myresult.m2, myresult.m2_moe, m2ci, myresult.n2, myresult.s2],
                      [myresult.mdiff, myresult.ne_mdiff_moe, nemci, "-", "-"],
-                     [myresult.d, "-", "Not Calculated", "-", "-"]
+                     [myresult.d, "-", nedci, "-", "-"]
                      ]
             mycaption = "Results reported without assuming equal variance because group standard deviations are not similar (greater than 2-fold difference).  CI for d is not calculated in this case (working on it)."
 
