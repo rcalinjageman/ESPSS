@@ -1,0 +1,19 @@
+Summary:
+Estimation for SPSS Module - Includes functions for using estimation approach to inferential statistics (effect sizes, confidence intervals, and meta-analysis)
+
+Description:
+
+Author:
+Robert Calin-Jageman
+
+Release Date:
+
+Version:
+0.1.0
+
+Links:
+http://thenewstatistics.org
+
+
+Estimation Approach Two-Sample T-Test
+Part of ESPSS.  A better t-test that emphasizes effect sizes and CIs, including Cohen's d.  
